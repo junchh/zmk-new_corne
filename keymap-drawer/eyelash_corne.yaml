@@ -47,7 +47,7 @@ layers:
   - NUMBER
   - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   NUMBER:
   - {t: '`', s: '~'}
@@ -96,5 +96,5 @@ layers:
   - {t: NUMBER, type: held}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
