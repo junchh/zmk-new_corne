@@ -29,7 +29,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - {t: \, s: '|'}
+  - $$mdi:apple-keyboard-control$$
   - Z
   - X
   - C
@@ -42,8 +42,8 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
+  - {t: \, s: '|'}
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
   - NUMBER
   - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
@@ -78,7 +78,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - _
   - +
-  - {t: \, s: '|'}
+  - $$mdi:apple-keyboard-control$$
   - ^
   - '&'
   - '*'
@@ -92,7 +92,7 @@ layers:
   - {t: ']', s: '}'}
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
   - {t: NUMBER, type: held}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
