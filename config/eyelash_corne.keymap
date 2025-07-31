@@ -65,7 +65,7 @@
 &kp GRAVE  &kp N1           &kp N2         &kp N3        &kp N4                &kp N5                                               &mmv MOVE_UP                     &kp N6          &kp N7           &kp N8            &kp N9             &kp N0     &kp BACKSPACE
 &kp ESC    &kp EXCLAMATION  &kp AT_SIGN    &kp HASH      &kp DOLLAR            &kp PERCENT                          &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT        &kp DOWN         &kp UP            &kp RIGHT          &kp UNDER  &kp PLUS
 &kp LCTRL  &kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS  &kp EQUAL
-                                           &kp LEFT_ALT  &mo 1                 &kp LCMD                                                                              &kp SPACE       &kp ENTER        &kp RIGHT_SHIFT
+                                           &kp LEFT_ALT  &mo 1                 &kp LCMD                                                                              &kp HOME        &kp END          &kp RIGHT_SHIFT
             >;
 
             sensor-bindings = <&scroll_encoder>;
