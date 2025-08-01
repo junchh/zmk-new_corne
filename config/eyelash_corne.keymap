@@ -54,10 +54,10 @@
         default_layer {
             display-name = "ABC";
             bindings = <
-&none  &kp Q  &kp W  &kp E       &kp R      &kp T                                      &kp UP                &kp Y      &kp U        &kp I            &kp O    &kp P     &none
-&none  &kp A  &kp S  &kp D       &kp F      &kp G                            &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J        &kp K            &kp L    &kp SEMI  &none
-&none  &kp Z  &kp X  &kp C       &kp V      &kp B               &kp SPACE              &kp DOWN              &kp N      &kp M        &kp COMMA        &kp DOT  &kp FSLH  &none
-                     &kp ESCAPE  &lt 1 TAB  &mt LCMD BACKSPACE                                               &kp SPACE  &lt 2 ENTER  &kp RIGHT_SHIFT
+&none  &kp Q  &kp W  &kp E                  &kp R      &kp T                                      &kp UP                &kp Y      &kp U        &kp I            &kp O    &kp P     &none
+&none  &kp A  &kp S  &kp D                  &kp F      &kp G                            &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J        &kp K            &kp L    &kp SEMI  &none
+&none  &kp Z  &kp X  &kp C                  &kp V      &kp B               &kp SPACE              &kp DOWN              &kp N      &kp M        &kp COMMA        &kp DOT  &kp FSLH  &none
+                     &mt LEFT_SHIFT ESCAPE  &lt 1 TAB  &mt LCMD BACKSPACE                                               &kp SPACE  &lt 2 ENTER  &kp RIGHT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
