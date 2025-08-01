@@ -113,10 +113,10 @@ layers:
   - Alt+0
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '`', s: '~'}
-  - '~'
-  - {t: \, s: '|'}
-  - '|'
+  - <
+  - '>'
+  - '?'
+  - ':'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -128,10 +128,10 @@ layers:
   - Sft+Gui+4
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - <
-  - '>'
-  - '?'
-  - ':'
+  - {t: '`', s: '~'}
+  - '~'
+  - {t: \, s: '|'}
+  - '|'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -141,13 +141,13 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Sft+Ctl+Gui+4
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '3'
+  - NAV2
   - $$mdi:apple-keyboard-shift$$
   - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: NAV, type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  '3':
+  NAV2:
   - {t: '$$mdi:transfer$$', type: trans}
   - Alt+Q
   - Alt+W
