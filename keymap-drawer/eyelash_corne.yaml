@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
-  QWERTY:
+  ABC:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Q
   - W
@@ -44,12 +44,12 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-esc$$
-  - {t: '$$mdi:keyboard-tab$$', h: NUMBER}
+  - {t: '$$mdi:keyboard-tab$$', h: SYM}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-command$$'}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', h: '2'}
+  - {t: '$$mdi:keyboard-return$$', h: NAV}
   - $$mdi:apple-keyboard-shift$$
-  NUMBER:
+  SYM:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -93,12 +93,12 @@ layers:
   - {t: '=', s: +}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: NUMBER, type: held}
+  - {t: SYM, type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - HOME
   - END
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  '2':
+  NAV:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Alt+1
   - Alt+2
@@ -145,7 +145,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '2', type: held}
+  - {t: NAV, type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   '3':
   - {t: '$$mdi:transfer$$', type: trans}
