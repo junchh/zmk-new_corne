@@ -30,7 +30,9 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "Shift/Caps Lock Tap Dance";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
+            bindings = <&kp SEMICOLON>, <&caps_word>;
+
+            tapping-term-ms = <150>;
         };
     };
 
@@ -48,16 +50,27 @@
         tap-ms = <30>;
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        combo_esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <32 31>;
+            layers = <0>;
+            timeout-ms = <50>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             display-name = "ABC";
             bindings = <
-&none  &kp Q  &kp W  &kp E                  &kp R      &kp T                                      &kp UP                &kp Y      &kp U        &kp I            &kp O    &kp P     &none
-&none  &kp A  &kp S  &kp D                  &kp F      &kp G                            &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J        &kp K            &kp L    &kp SEMI  &none
-&none  &kp Z  &kp X  &kp C                  &kp V      &kp B               &kp SPACE              &kp DOWN              &kp N      &kp M        &kp COMMA        &kp DOT  &kp FSLH  &none
-                     &mt LEFT_SHIFT ESCAPE  &lt 1 TAB  &mt LCMD BACKSPACE                                               &kp SPACE  &lt 2 ENTER  &kp RIGHT_SHIFT
+&none  &kp Q  &kp W  &kp E                  &kp R             &kp T                                      &kp UP                &kp Y      &kp U              &kp I            &kp O    &kp P     &none
+&none  &kp A  &kp S  &kp D                  &mt LEFT_SHIFT F  &kp G                            &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &mt RIGHT_SHIFT J  &kp K            &kp L    &td0      &none
+&none  &kp Z  &kp X  &kp C                  &kp V             &kp B               &kp SPACE              &kp DOWN              &kp N      &kp M              &kp COMMA        &kp DOT  &kp FSLH  &none
+                     &mt LEFT_SHIFT ESCAPE  &lt 1 TAB         &mt LCMD BACKSPACE                                               &kp SPACE  &lt 2 ENTER        &kp RIGHT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
