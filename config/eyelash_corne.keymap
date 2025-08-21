@@ -92,7 +92,7 @@
         symbol_layer {
             display-name = "SYM";
             bindings = <
-&none  &kp GRAVE        &kp TILDE      &kp BACKSLASH  &kp PIPE              &kp HOME                                             &mmv MOVE_UP                     &kp END           &kp LESS_THAN      &kp GREATER_THAN  &kp QUESTION       &kp COLON  &none
+&none  &kp GRAVE        &kp TILDE      &kp BACKSLASH  &kp PIPE              &kp HOME                                             &mmv MOVE_UP                     &kp LESS_THAN     &kp GREATER_THAN   &kp END           &kp QUESTION       &kp COLON  &none
 &none  &kp EXCLAMATION  &kp AT_SIGN    &kp HASH       &kp DOLLAR            &kp PERCENT                          &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp UNDERSCORE    &kp MINUS          &kp PLUS   &none
 &none  &kp CARET        &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL  &none
                                        &none          &mo 1                 &none                                                                                 &kp SPACE         &kp ENTER          &none
