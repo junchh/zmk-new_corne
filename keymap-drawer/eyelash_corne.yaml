@@ -57,9 +57,9 @@ layers:
   - '|'
   - HOME
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - END
   - <
   - '>'
+  - END
   - '?'
   - ':'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
